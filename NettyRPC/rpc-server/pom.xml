@@ -4,20 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.connor.rpc</groupId>
     <artifactId>rpc-server</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>com.connor.rpc</groupId>
             <artifactId>rpc-common</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.32</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.30</version>
         </dependency>
         <dependency>
             <groupId>com.dyuproject.protostuff</groupId>
@@ -34,6 +39,7 @@
             <artifactId>commons-collections4</artifactId>
             <version>4.4</version>
         </dependency>
+
     </dependencies>
 
 
